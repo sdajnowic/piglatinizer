@@ -6,7 +6,7 @@ $("button").click(function(){ // click handler
 
     var sum = 0; //
     nums_array.forEach(function(element){
-        sum += element;
+        sum += Number(element);
     });
 
     $('.output').append(nums+" = "+sum);
